@@ -2,7 +2,8 @@ name: Publish
 
 on:
   push:
-    - published
+    branches:
+      - published
 
 jobs:
   jekyll:
